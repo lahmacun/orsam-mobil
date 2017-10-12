@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+  padding: 10px 0;
+  background: $darkblue;
+  position: fixed;
+  z-index: 1;
+
+  .logo {
+    height: 30px;
+    width: 50%;
+    margin: 0px auto;
+    display: block;
+  }
+
+  .mobile-toggler {
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    right: 15px;
+    font-size: 26px;
+  }
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  background: $darkblue;
+  color: #fff;
+  font-family: "Aleo Regular";
+  padding: 10px 20px;
+  box-sizing: border-box;
+
+  li {
+    a {
+      border-bottom: 1px solid #ddd;
+      padding: 10px;
+      display: block;
+    }
+  }
+
+  .dropdown-menu {
+    padding-left: 20px;
+    display: none;
+  }
+}
