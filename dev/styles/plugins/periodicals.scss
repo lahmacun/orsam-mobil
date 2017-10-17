@@ -1,0 +1,39 @@
+.periodicals-wrapper {
+  padding: 0px 10px 15px 10px;
+  box-sizing: border-box;
+
+  .periodical {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 5px;
+    float: left;
+    display: inline-block;
+
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .caption {
+      span {
+        color: $red;
+        font-size: 15px;
+        font-family: "Bebas Kai";
+        margin-right:5px;
+
+        span {
+          margin-right: 0;
+          color: #D8D8D8;
+        }
+      }
+    }
+  }
+
+  .button {
+    width: 60%;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+  }
+}

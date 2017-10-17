@@ -1,0 +1,35 @@
+.latest-posts {
+  background: $darkblue;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+
+  h3 {
+    font-size: 20px;
+    font-family: "Aleo Bold";
+    color: #fff;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    margin-bottom: 0;
+
+    li {
+      font-size: 17px;
+      font-family: "Aleo Regular";
+      color: #fff;
+
+      .date {
+        position: static;
+        display: block;
+        margin: 10px 0px 20px 0px;
+
+        i {
+          color: $red;
+        }
+      }
+    }
+  }
+}

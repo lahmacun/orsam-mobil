@@ -1,0 +1,57 @@
+.full-width-article {
+  width: 100%;
+  min-height: 160px;
+  position: relative;
+  border-bottom: 1px solid $darkblue;
+
+  .author-box {
+    margin-bottom: 0;
+  }
+
+  .image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    &:after {
+      @extend .image-filter;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    .article-info {
+      padding: 15px;
+      box-sizing: border-box;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      color: #fff;
+
+      h3 {
+        font-size: 14px;
+        font-family: "Bebas Kai";
+      }
+
+      p {
+        font-size: 9px;
+        font-family: "Roboto Slab";
+      }
+    }
+  }
+}
+
+@media all and (min-width: $mobileWidth) {
+  .full-width-article {
+    width: 50%;
+    float: left;
+    display: inline-block;
+  }
+}

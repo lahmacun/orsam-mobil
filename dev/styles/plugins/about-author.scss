@@ -1,0 +1,29 @@
+.about-author {
+  padding: 20px;
+  box-sizing: border-box;
+
+  h3 {
+    font-size: 20px;
+    font-family: "Aleo Bold";
+    color: #fff;
+  }
+
+  p {
+    font-size: 17px;
+    font-family: "Aleo Regular";
+    color: #fff;
+    line-height: 23px;
+    text-align: justify;
+    margin: 20px 0px!important;
+
+    &:last-child {
+      a {
+        color: $red;
+
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

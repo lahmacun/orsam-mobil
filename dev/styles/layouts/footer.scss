@@ -1,0 +1,39 @@
+#footer {
+  padding: 15px 20px;
+  box-sizing: border-box;
+
+  img {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  p {
+    font-size: 12px;
+    font-family: "Roboto Slab";
+    color: #D8D8D8;
+    text-align: justify;
+
+    span {
+      display: block;
+      margin: 10px 0px;
+    }
+  }
+}
+
+.sign {
+  text-align: right;
+  color: #D8D8D8;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 13px;
+  font-family: "Bebas Kai";
+  background: #2D313E;
+
+  i {
+    font-size: 5px;
+    position: relative;
+    top: -1px;
+    margin: 0px 5px;
+  }
+}

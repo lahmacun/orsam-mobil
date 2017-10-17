@@ -1,0 +1,25 @@
+.post-top-info {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  padding: 20px;
+  box-sizing: border-box;
+
+  h1 {
+    font-family: "Aleo Bold";
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .date {
+    position: static;
+    margin: 20px 0px;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 0;
+
+    i {
+      color: $red;
+    }
+  }
+}

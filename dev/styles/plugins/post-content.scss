@@ -1,0 +1,21 @@
+.post-content {
+  padding: 20px;
+  box-sizing: border-box;
+  background: $darkblue;
+  color: #fff;
+
+  p {
+    font-size: 18px;
+    font-family: "Lucida Grande";
+    line-height: 23px;
+    text-align: justify;
+    color: $contentText;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-family: "Bebas Kai";
+    margin: 15px 0px;
+    color: $contentText;
+  }
+}

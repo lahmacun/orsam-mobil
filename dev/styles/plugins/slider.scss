@@ -1,0 +1,78 @@
+#slider {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+  position: relative;
+
+  .item {
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .6);
+    }
+
+    .caption {
+      position: absolute;
+      left: 15px;
+      z-index: 2;
+      color: #fff;
+      font-family: "Bebas Kai";
+      top: 3vh;
+
+      h2 {
+        font-size: 20px;
+        text-align: left;
+        display: block;
+      }
+
+      p {
+        font-family: "Lucida Grande";
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      .button {
+        margin-top: 10px;
+      }
+    }
+
+    .image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        min-height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .owl-carousel {
+    height: 100%;
+  }
+
+  .owl-dots {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    .owl-dot {
+      &.active {
+        span {
+          background: $red;
+        }
+      }
+
+      span {
+        border: 1px solid $red;
+        background: transparent;
+      }
+    }
+  }
+}

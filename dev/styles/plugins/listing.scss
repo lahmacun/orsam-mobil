@@ -1,0 +1,43 @@
+.listing {
+  color: #fff;
+  width: 100%;
+
+  &.horizontal {
+    .image {
+      width: 30%;
+      overflow: hidden;
+      float: left;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .caption {
+      width: 70%;
+      float: left;
+      display: inline-block;
+      padding: 0 20px;
+      box-sizing: border-box;
+
+      h3 {
+        font-size: 17px;
+        font-family: "ALeo Bold";
+      }
+
+      .date {
+        position: static;
+        margin-top: 10px;
+        display: block;
+
+        i {
+          color: $red;
+        }
+      }
+    }
+  }
+}

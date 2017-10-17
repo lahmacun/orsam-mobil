@@ -3,8 +3,123 @@
 @@include('../parts/helpers/head.html',{"title":"Anasayfa"})
 <body>
     @@include('../parts/layouts/header.html')
+    @@include('../parts/plugins/slider.html')
 
-    index içeriği
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">DIŞ POLİTİKA ANALİZLERİ</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/full-width-article.html')
+          @@include('../parts/plugins/full-width-article.html')
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">ETKİNLİKLER</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/section-carousel.html')
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">DEĞERLENDİRMELER</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/section-carousel-type-2.html')
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">RAPORLAR</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/section-carousel-type-3.html')
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">MEDYA</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/media-full.html')
+          <div class="media-wrapper">
+            @@include('../parts/plugins/media.html')
+            @@include('../parts/plugins/media.html')
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">ORTADOĞU ANALİZ</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/periodicals.html')
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">ORTADOĞU ETÜTLERİ</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/periodicals.html')
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">GÜNCELERİMİZ</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/section-carousel-type-4.html')
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="section-title">ORSAM DETAY</h1>
+          <a href="#"><i class="show-all"></i></a>
+        </div>
+        <div class="section-content">
+          @@include('../parts/plugins/focus.html')
+        </div>
+      </div>
+    </section>
 
     @@include('../parts/layouts/footer.html')
     @@include('../parts/helpers/script.html')

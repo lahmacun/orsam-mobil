@@ -1,8 +1,26 @@
-//Import Base
+// Import Base
 @import 'base/variables';
 @import 'base/normalize';
 @import 'base/typography';
 @import 'base/global';
+
+// Import Plugins
+@import 'plugins/slider';
+@import 'plugins/full-width-article';
+@import 'plugins/author-box';
+@import 'plugins/section-carousel';
+@import 'plugins/media';
+@import 'plugins/periodicals';
+@import 'plugins/focus';
+@import 'plugins/focus-areas';
+@import 'plugins/breadcrumbs';
+@import 'plugins/post-top-info';
+@import 'plugins/post-content';
+@import 'plugins/share-box';
+@import 'plugins/about-author';
+@import 'plugins/latest-posts';
+@import 'plugins/related-contents';
+@import 'plugins/listing';
 
 // Import Layouts
 @import 'layouts/header';

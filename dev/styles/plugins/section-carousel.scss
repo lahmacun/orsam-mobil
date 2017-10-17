@@ -1,0 +1,111 @@
+.section-carousel, .bulletin-carousel {
+  width: 100%;
+  height: auto;
+
+  .owl-dots {
+    padding-bottom: 15px;
+    margin-top: 0;
+
+    .owl-dot {
+      &.active {
+        span {
+          background: $red;
+        }
+      }
+
+      span {
+        background: transparent;
+        border: 1px solid $red;
+      }
+    }
+  }
+
+  .image {
+    width: 50%;
+    padding: 10px 10px 10px 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .detail {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+
+    h4 {
+      font-size: 17px;
+      font-family: "Bebas Kai";
+      color: #fff;
+    }
+
+    p {
+      margin: 10px 0px;
+      color: #fff;
+      font-family: "Roboto Slab";
+      font-size: 12px;
+    }
+
+    i {
+      color: $red;
+      display: inline-block;
+      width: 15px;
+      text-align: center;
+      position: relative;
+      top: -1px;
+      margin-right: 5px;
+    }
+  }
+
+  &.light {
+
+    .doc-tag {
+      background: $lightblue;
+    }
+
+    .owl-dots {
+      .owl-dot {
+        &.active {
+          span {
+            background: $lightblue!important;
+          }
+        }
+
+        span {
+          background: transparent;
+          border: 1px solid $lightblue!important;
+        }
+      }
+    }
+  }
+}
+
+.bulletin-carousel {
+  .image {
+    width: 100%;
+    padding: 0px 65px;
+    box-sizing: border-box;
+  }
+
+  .owl-controls {
+    padding-top: 10px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .section-carousel {
+    .image {
+      display: none;
+    }
+    .detail {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.related-contents-wrapper {
+  h3 {
+    font-size: 20px;
+    font-family: "Aleo Bold";
+    color: #fff;
+    margin: 20px 10px;
+  }
+
+  .related-contents {
+    width: 100%;
+    background: $secondary;
+
+    .tab-header {
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+
+      li {
+        border-right: 1px solid $bodyBg;
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+
+      li {
+        float: left;
+        display: inline-block;
+        padding: 15px;
+        color: #fff;
+        font-family: "Aleo Regular";
+
+        &.active {
+          background: $darkblue;
+        }
+      }
+    }
+
+    .tab-content {
+      background: $darkblue;
+    }
+
+    .tab-content-inner {
+      display: none;
+
+      li {
+        border-bottom: 1px solid $bodyBg;
+      }
+
+      .date {
+        position: static;
+
+        i {
+          color: $red;
+        }
+      }
+    }
+  }
+}

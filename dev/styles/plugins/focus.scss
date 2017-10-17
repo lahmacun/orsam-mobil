@@ -1,0 +1,35 @@
+.focus-wrapper {
+  width: 100%;
+
+  .focus-item {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid $darkblue;
+
+    .image {
+      width: 100%;
+
+      &:after {
+        @extend .image-filter;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .caption {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 0;
+      top: 0;
+      color: #fff;
+      font-size: 24px;
+      font-family: "Bebas Kai";
+    }
+  }
+}
